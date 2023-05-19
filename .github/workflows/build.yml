@@ -26,7 +26,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-        cache: maven
+        # cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       - name: Cache SonarCloud packages
