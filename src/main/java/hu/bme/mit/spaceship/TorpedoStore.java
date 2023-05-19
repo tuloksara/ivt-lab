@@ -13,6 +13,7 @@ public class TorpedoStore {
   private double FAILURE_RATE = 0.0; //NOSONAR
 
   private int torpedoCount = 0;
+  /////
   Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
@@ -51,9 +52,10 @@ public class TorpedoStore {
     return success;
   }
 
-  public boolean isEmpty(){
+  public boolean isEmpty() {
     return this.torpedoCount <= 0;
   }
+
 
   public int getTorpedoCount() {
     return this.torpedoCount;
