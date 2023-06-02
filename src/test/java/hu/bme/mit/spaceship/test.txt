@@ -1,0 +1,7 @@
+Fire single primary when secondary is empty
+Fire single secondary when primary is empty
+Fire single primary when both not empty
+Fire single when both empty
+Fire all torpedos when both not empty
+Fire all when primary empty
+Fire all when secondary empty
